@@ -1,0 +1,15 @@
+package vdream.vd.com.vdream.view.fragment
+
+import android.os.Bundle
+import android.support.v4.app.Fragment
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import vdream.vd.com.vdream.R
+
+class AirBusanFragment: Fragment() {
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+        var rootView = inflater.inflate(R.layout.fragment_air_busan, container, false)
+        return rootView
+    }
+}
